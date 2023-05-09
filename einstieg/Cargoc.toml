@@ -1,0 +1,12 @@
+[package]
+name = "einstieg"
+typ = "bin"
+src = ["src/main.cpp"]
+
+[compiler]
+compiler = "clang++"
+
+[linker]
+linker = "clang++"
+
+[dependencies]

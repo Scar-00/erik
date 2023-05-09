@@ -1,0 +1,12 @@
+[package]
+name = "datentypen"
+typ = "bin"
+src = ["src/main.cpp"]
+
+[compiler]
+compiler = "clang++"
+
+[linker]
+linker = "clang++"
+
+[dependencies]
